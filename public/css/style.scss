@@ -1,0 +1,52 @@
+$dark-orange: #EA6903;
+$light-orange: #FFA654;
+$rfe-heading: 'Myriad Pro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$headline: #262626;
+$para: #666;
+
+html {
+	font-family: $rfe-heading;
+}
+
+nav {
+	background: $dark-orange;
+	border-bottom: 2px solid $light-orange;
+	color: white;
+	font-weight: bold;
+	font-size: 1.7em;
+	height: 50px;
+	width: 100%;
+	padding: 0.2em;
+	text-align: center;
+	img {
+		width: 1.2em;
+		vertical-align: -0.2em;
+	}
+}
+
+.container {
+	width: 960px;
+	margin: 20px auto auto auto;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 600;
+	color: $headline;
+	margin: 1.3em 0 0.4em 0;
+}
+
+p {
+	color: $para;
+}
+
+.canvas-container {
+	width: 90%;
+	margin: 2em auto;
+	border: 1px solid $light-orange;
+}
+
+canvas {
+	width: 100%;
+	padding: 1em;
+}
