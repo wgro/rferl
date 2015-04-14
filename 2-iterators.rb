@@ -50,6 +50,24 @@ if my_name == your_name
   puts "It's the same person!"
 end
 
+# You can also add an 'else' statement. It's pretty self explanatory.
+if my_name == your_name
+  puts "Same person!"
+else
+  puts "Not the same"
+end
+
+# There are tons of things you can check with an if statement. You can compare size:
+windspeed = 100
+
+if windspeed > 99
+  puts "Hurricane!"
+elsif windspeed < 10
+  puts "Just a zephyr..."
+end
+
+# Notice the elsif addition. That just adds another condition to check against.
+
 # Now on to my favorite iterator.
 # It's called 'each', and it will serve you well.
 
@@ -62,6 +80,42 @@ fellows.each do |person|
 end
 
 # I love the 'each' iterator.
+
+########################################
+############# ASSIGNMENT 2 #############
+########################################
+
+# 1. Write an if/else statement that compares the number of free seats
+#    to how many people there are. If there are not enough seats, print
+#    "Overbooked!" otherwise print "Good to go!".
+
+seats = 10
+people = 11
+
+# 2. Go through each element in this array and multiply it by 3. 
+
+numbers = [ 33, 29.77, 11, "42" ]
+
+# 3. Now see if you can count the number of elements in that array.
+
+
+
+# 4. Make a while loop that counts down from 99 and sings the beer song.
+#    I've given you a bit of a start:
+
+bottles = 99
+
+# Beer song:
+# puts "#{bottles} bottles of beer on the wall."
+# puts "#{bottles} bottles of beer!"
+# (You'll have a little bit of code to write on this line)
+# puts "Take one down, pass it around, #{bottles} bottles of beer on the wall!"
+
+
+
+
+
+
 
 
 
