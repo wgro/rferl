@@ -35,3 +35,31 @@ tweets.each do |tweet|
 end
 
 # How would you clean the above code up by using a method?
+
+########################################
+############# ASSIGNMENT 4 #############
+########################################
+
+# 1. Write a method 'check_brevity' that grabs 20 tweets from a hashtag of your
+#    choice, and prints the character count of each tweet.
+
+def check_brevity
+end
+
+check_brevity
+
+# 2. Here's a method that averages an array. Don't worry too much about how it works.
+
+def average_array ( array )
+  array.inject { | first_number, x | first_number + x } / array.length.to_f
+end
+
+# Now write a method that 1) adds the length of each tweet.text to an array.
+# HINT: use the << method. Then print the average length of the tweet text in your
+# search. :)
+
+def average_brevity
+  puts "Average brevity is... "
+end
+
+average_brevity
