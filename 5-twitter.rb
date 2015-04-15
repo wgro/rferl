@@ -34,16 +34,18 @@ tweets.each do |tweet|
   puts tweet.text
 end
 
-# How would you clean the above code up by using a method?
-
 ########################################
-############# ASSIGNMENT 4 #############
+############# ASSIGNMENT 5 #############
 ########################################
 
 # 1. Write a method 'check_brevity' that grabs 20 tweets from a hashtag of your
 #    choice, and prints the character count of each tweet.
 
-def check_brevity
+# tweets = client.search...
+# Define your twitter search here, outside the methods, so that it will
+# only run once.
+
+def check_brevity ( tweets )
 end
 
 check_brevity
@@ -58,7 +60,7 @@ end
 # HINT: use the << method. Then print the average length of the tweet text in your
 # search. :)
 
-def average_brevity
+def average_brevity ( tweets )
   puts "Average brevity is... "
 end
 

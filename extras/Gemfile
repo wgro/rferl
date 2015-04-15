@@ -3,8 +3,11 @@ source 'https://rubygems.org'
 # Webserver
 gem "sinatra"
 
-# Twitter API interface
-gem 'twitter'
+# Instagram
+gem 'instagram'
+
+# Reddit
+gem 'redditkit', '~> 1.0.1'
 
 # ERB
 gem 'erubis', '~> 2.7.0'

@@ -33,26 +33,18 @@ your_name = "Jethroe"
 
 puts your_name == my_name
 
-########################################
-############# ASSIGNMENT 1 #############
-########################################
+# And compare sizes using the < and > operators.
+# Using <= and >= is like saying 'less/greater than or equal to'
 
-# 1. What would happen if you multiplied a string by a number?
+6 < 7 # true
 
-# 2. Look at this:
-#    x = 10
-#    y = 20
-#    x + y = ?
-#    y = 30
-#    x + y = ?
-#
-# What do you think is the value of both those expressions?
+6 < 9 # false
 
+6 < 6 # false
 
-# 3. What's the difference between:
-#    13 / 2
-#    and
-#    13 % 2
+6 <= 6 # true
 
+# You can also evaluate inequality:
 
+6 != 7 # true
 
