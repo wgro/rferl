@@ -18,19 +18,5 @@ get '/' do
     config.access_token_secret = "_"
   end
 
-  # Get the users
-  fetched_users = client.users("disconnect", "arzugeybulla", "evgenyen", "hannaliubakova", "salma_bahramy")
-
-  # List of handles to fetch information for...
-  @fellows = [] # fellow names
-  @followers = [] # followers_count
-  @friends = [] # friends_count
-
-  fetched_users.each do |user|
-    @fellows << user.username
-    @followers << user.followers_count
-    @friends << user.friends_count
-  end
-
   erb :index
 end
