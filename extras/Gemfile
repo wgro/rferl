@@ -6,11 +6,17 @@ gem "sinatra"
 # Instagram
 gem 'instagram'
 
+# Chartkick
+gem "chartkick"
+
 # Reddit
 gem 'redditkit', '~> 1.0.1'
 
 # ERB
 gem 'erubis', '~> 2.7.0'
+
+# Classifier!
+gem 'classifier'
 
 # Pry
 gem 'pry'
